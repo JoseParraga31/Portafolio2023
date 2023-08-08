@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Barlow", sans-serif;
+  color: #8990ac;
+  font-size: 15px;
+}
+body {
+  background-image: url(../statics/OC1Y8T0.jpg);
+}
+
+.NavBar--Container {
+  display: flex;
+  width: 90%;
+  height: 3.8em;
+  margin-left: 5%;
+  margin-top: 1em;
+  border: 2px solid #d0d0d0;
+  justify-content: space-around;
+  padding: 1em;
+  background-color: rgb(245, 245, 245, 0.7);
+}
+.Navbar--logoContainer {
+  width: 30%;
+  margin-left: 0;
+}
+.NavBar--hexagono {
+  position: absolute;
+  top: 25px;
+  background: linear-gradient(#ff7832, #de32ff);
+  width: 120px;
+  height: 120px;
+  clip-path: polygon(
+    50% 0%,
+    90% 20%,
+    100% 60%,
+    75% 100%,
+    25% 100%,
+    0% 60%,
+    10% 20%
+  );
+}
+.NavBar {
+  width: 60%;
+}
+.NavBar--List {
+  width: 100%;
+  display: flex;
+  margin-right: 5em;
+  justify-content: space-around;
+  list-style: none;
+}
+.NavBar--item {
+  font-weight: 600;
+}
+.NavBar--links {
+  text-decoration: none;
+}
+.NavBar--links:hover {
+  background: linear-gradient(#ff7832, #de32ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

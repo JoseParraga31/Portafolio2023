@@ -1,0 +1,13 @@
+.description{
+    width: 80%;
+    background-color: rgb(245, 245, 245, 0.6);
+    border-bottom: 2px solid #d0d0d0;
+    margin-left: 15%;
+    margin-top: 4em;
+    padding: 2em;
+}
+
+.description--txt{
+    text-align: center;
+    font-size: 1.5em;
+}
