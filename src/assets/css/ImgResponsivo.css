@@ -4,7 +4,7 @@
     background-color: rgb(245, 245, 245, 0.6);
     border-bottom: 2px solid #d0d0d0;
     margin-top: 5em;
-    margin-left: 25em;
+    margin-left: 20em;
 }
 
 
@@ -17,12 +17,7 @@
 .imgResponsivo__txt{
     text-align: center;
     font-size: 1.5em;
-    margin-top: 5em;
+    margin-top: 6em;
     
 }
-.btn__VerMas{
-    width: 25em;
-    height: 2.5em;
-    font-size: 1.3em;
- 
-}
+

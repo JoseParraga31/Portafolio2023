@@ -17,15 +17,15 @@ export default function NavBar() {
                     <li className="NavBar--item">
                         <a className="NavBar--links" href="#">PortFolio</a> 
                     </li>
-                    <li className="NavBar--item">
+                    {/* <li className="NavBar--item">
                         <a className="NavBar--links" href="#"> Servicios</a>                      
-                    </li>
-                    <li className="NavBar--item">
+                    </li> */}
+                    {/* <li className="NavBar--item">
                         <a className="NavBar--links" href="#">Sobre Mi</a>   
-                    </li>
-                    <li className="NavBar--item">
+                    </li> */}
+                    {/* <li className="NavBar--item">
                         <a className="NavBar--links" href="#">Contacto</a>
-                    </li>
+                    </li> */}
                 </ul>
             </nav>
         </header>
