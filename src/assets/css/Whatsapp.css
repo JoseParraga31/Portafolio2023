@@ -1,0 +1,11 @@
+.Whatsapp{
+    text-decoration: none;
+}
+
+.imgWhatsapp{
+    width: 6em;
+    position: fixed;
+    bottom: 5em;
+    right: 2em;
+    z-index: 100;
+}

@@ -1,10 +1,11 @@
 .items__container{
-    width: 70%;
-    height: 20em;
+    width: 85%;
+    height: 40em;
     display: flex;
+    justify-content: space-around;
     background-color: rgb(245, 245, 245, 0.6);
     border-bottom: 2px solid #d0d0d0;
     margin-top: 5em;
-    margin-left: 20em;
+    margin-left: 10em;
 }
 

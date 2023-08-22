@@ -10,7 +10,7 @@ const ImgResponsivo = () => {
           <div>
             <h2 className='imgResponsivo__txt'>
               Diseños personaliozados <br></br> Full responsive <br></br> las tecnologias mas agiles de
-              la actuialidad
+              la actualidad
             </h2> 
             <div className="btn__container">
               <Button></Button>

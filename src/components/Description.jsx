@@ -5,8 +5,8 @@ export default function Description() {
     
     <div className='description'>
       <h1 className='description--txt'>
-        Desarrollador web frontEnd freelance.<br></br>
-        con experiencia en diseño y desarrollo de sitios web personalizados.
+        Desarrollador web freelance.<br></br>
+        Experiencia en diseño y desarrollo de sitios web personalizados.
       </h1>
     </div>
   )

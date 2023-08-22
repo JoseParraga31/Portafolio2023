@@ -1,17 +1,26 @@
 import "../assets/css/App.css"
 import NavBar from "../components/NavBar"
-import Description from "../components/Description";
-import ImgResponsivo  from "../components/ImgResponsivo";
-import ItemListContainer from "../components/ItemListContainer";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer"
+import Home from "../components/Home"
+import SobreMi from "../components/SobreMi";
+import Portafolio from "../components/Portafolio";
+import ItemDetail from "../components/ItemDetail";
+import {BrowserRouter, Routes, Route} from "react-router-dom"
+
 function App() {
   return (
     <div className="App">
-      <NavBar></NavBar>
-      <Description></Description>
-      <ImgResponsivo></ImgResponsivo>
-      <ItemListContainer></ItemListContainer>
-      <Footer></Footer>
+      <BrowserRouter>
+        <NavBar></NavBar>
+        <Routes>
+        <Route path="/" element={<Home/>}></Route>
+          <Route path="/Home" element={<Home/>}></Route>
+          <Route path="/SobreMi" element={<SobreMi/>} ></Route>
+          <Route path="/portafolio" element={<Portafolio/>}></Route>
+          <Route path="Home/serviceDetail/:id" element={<ItemDetail/>}> </Route>
+        </Routes>
+        <Footer></Footer>
+      </BrowserRouter>  
     </div>
   );
 }

@@ -1,26 +1,33 @@
 import React from 'react'
-import Button from './Button'
+import ButtonCards from './ButtonCards';
+import "../assets/css/Cards.css"
+function Cards( serv ) {
+      
+    console.log('====================================');
+    console.log(serv);
+    console.log('====================================');
+  
 
-function Cards() {
   return (
     <div>
       <div className="card__container">
         <div className="card__img">
-          <img src="" alt="" className="img" />
+          <img src={serv.img} alt={serv.titulo} className="img" />
         </div>
-      </div>
-      <div className="card__tittle">
-        <h4 className="tittle">
-
-        </h4>
-      </div>
-      <div className="card__descripcion">
+     
+        <div className="card__tittle">
+          <h2 className="tittle">
+          {serv.titulo}
+          </h2>
+        </div>
+        <div className="card__descripcion card__descripcion--adds">
           <p className="descripcion">
-
+          {serv.descripcion}
           </p>
-      </div>
-      <div className="card__button">
-        <Button></Button>
+        </div>
+        <div className="card__button">
+          <ButtonCards id={serv.id} ></ButtonCards>
+        </div>
       </div>
     </div>
   )
