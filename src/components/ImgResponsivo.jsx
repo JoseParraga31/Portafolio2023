@@ -6,14 +6,16 @@ const ImgResponsivo = () => {
   return (
     <>
       <div className="imgResponsive__container">
-          <img className="imgResponsive" src={imgResponsive} alt=" img" />
-          <div>
-            <h2 className='imgResponsivo__txt'>
-              Diseños personaliozados <br></br> Full responsive <br></br> las tecnologias mas agiles de
-              la actualidad
-            </h2> 
-            <div className="btn__container">
-              <Button></Button>
+        <div className="bg2">
+            <img className="imgResponsive" src={imgResponsive} alt=" img" />
+            <div>
+              <h2 className='imgResponsivo__txt'>
+                Diseños personaliozados <br></br> Full responsive <br></br> las tecnologias mas agiles de
+                la actuialidad
+              </h2> 
+              <div className="btn__container">
+                <Button></Button>
+              </div>
             </div>
           </div>
       </div>

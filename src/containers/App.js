@@ -5,6 +5,7 @@ import Home from "../components/Home"
 import SobreMi from "../components/SobreMi";
 import Portafolio from "../components/Portafolio";
 import ItemDetail from "../components/ItemDetail";
+import WhatsappBtn from "../components/WhatsappBtn";
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/portafolio" element={<Portafolio/>}></Route>
           <Route path="Home/serviceDetail/:id" element={<ItemDetail/>}> </Route>
         </Routes>
+        <WhatsappBtn></WhatsappBtn>
         <Footer></Footer>
       </BrowserRouter>  
     </div>

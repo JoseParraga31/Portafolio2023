@@ -3,14 +3,15 @@
     margin-left: 1em;
 }
 .btn__VerMas{
-    
+    border: 2px solid #212121;
     width: 25em;
-    height: 2.5em;
+    padding: .3em;
     font-size: 1.3em;
     position: relative;
     background: none;
     cursor: pointer;
     z-index: 2;
+    text-decoration: none;
 }
 .btn__VerMas::before{
     content: "";

@@ -10,7 +10,6 @@ function Home() {
         <Description></Description>
         <ImgResponsivo></ImgResponsivo>
         <ItemListContainer></ItemListContainer>
-        <WhatsappBtn></WhatsappBtn>
     </div>
   );
 }

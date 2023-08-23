@@ -16,9 +16,9 @@ export default function NavBar() {
                     <li className="NavBar--item">
                         <Link to="/Home" className="NavBar--links" href="#">Home</Link> 
                     </li>
-                    <li className="NavBar--item">
+                    {/* <li className="NavBar--item">
                         <Link to="/SobreMi" className="NavBar--links" href="#">Sobre Mi</Link> 
-                    </li>
+                    </li> */}
                     {/* <li className="NavBar--item">
                         <a className="NavBar--links" href="#"> Servicios</a>                      
                     </li> */}
