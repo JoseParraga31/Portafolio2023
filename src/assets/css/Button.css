@@ -1,3 +1,29 @@
+@media(max-width: 920px) and (min-width: 412px){
+    
+    .btn__container{
+        margin-top: 3em !important;
+        margin-left: 5em !important;
+        
+    }
+    .btn__VerMas{
+        width: 100%;
+        border: 2px solid #212121 !important;
+        width: 50% !important;
+        padding: .5em !important;
+        font-size: 1em !important;
+        background: none;
+        cursor: pointer;
+        z-index: 2;
+        text-decoration: none;
+    }
+
+    .btn__flecha{
+        width: 1.5em;
+       margin-left: 1em !important;
+       align-items: center !important;
+    }
+}
+
 .btn__container{
     margin-top: 14em;
     margin-left: 1em;

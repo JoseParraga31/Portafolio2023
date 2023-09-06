@@ -1,3 +1,22 @@
+@media(max-width: 920px) and (min-width: 412px){
+    
+.items{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 2em;
+
+}
+
+
+}
+
+
+
+
+
+
 .items{
     width: 100%;
     display: flex;

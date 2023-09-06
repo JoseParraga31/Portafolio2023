@@ -8,7 +8,7 @@ const ImgResponsivo = () => {
       <div className="imgResponsive__container">
         <div className="bg2">
             <img className="imgResponsive" src={imgResponsive} alt=" img" />
-            <div>
+            <div className='imgResponsivotxt__container'>
               <h2 className='imgResponsivo__txt'>
                 Diseños personaliozados <br></br> Full responsive <br></br> las tecnologias mas agiles de
                 la actuialidad

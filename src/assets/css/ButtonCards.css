@@ -1,3 +1,28 @@
+@media(max-width: 920px) and (min-width: 412px){
+    
+
+    .card__VerMas{
+        width: 100%;
+        border: 2px solid #212121 !important;
+        width: 50% !important;
+        padding: 1em !important;
+        font-size: 1em !important;
+        background: none;
+        cursor: pointer;
+        z-index: 2;
+        text-decoration: none;
+    }
+
+    .card__flecha{
+        width: 1.5em;
+       margin-left: 1em !important;
+       align-items: center !important;
+    }
+    .card__txt{
+        font-size: 1em;
+        margin-top: 0 !important;
+    }
+}
 
 .card__VerMas{
     display: inline-flex;
@@ -46,7 +71,5 @@
 
 .card__txt{
     font-size: 1em;
-    
     margin-top: .3em;
-
 }

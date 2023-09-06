@@ -68,7 +68,7 @@ function Portafolio() {
               <h2 className="titulo">Certificado en desarrollo web</h2>
             </div>
             <div className="Certificado__img">
-              <img className='img' src={DesarrolloWebCd} alt="DesarrolloWeb" />
+              <img className='img__certificado' src={DesarrolloWebCd} alt="DesarrolloWeb" />
             </div>
           </div>
           <div className="Certificado__Card">
@@ -76,7 +76,7 @@ function Portafolio() {
               <h2 className="titulo">Certificado en JavaScript</h2>
             </div>
             <div className="Certificado__img">
-              <img className='img' src={JsCd} alt="JavaScript" />
+              <img className='img__certificado' src={JsCd} alt="JavaScript" />
             </div>
           </div>
           <div className="Certificado__Card">
@@ -84,7 +84,7 @@ function Portafolio() {
               <h2 className="titulo">Certificado en React</h2>
             </div>
             <div className="Certificado__img">
-              <img className='img' src={ReactCd} alt="React" />
+              <img className='img__certificado' src={ReactCd} alt="React" />
             </div>
           </div>
         </div>

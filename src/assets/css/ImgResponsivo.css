@@ -1,3 +1,36 @@
+@media(max-width: 920px) and (min-width: 412px){
+    .imgResponsive__container{
+        width: 100%;
+        margin-top: 1em !important;
+        margin-left: 2.5em !important;
+        
+        padding: 0 !important;
+    }
+    .bg2{
+        width: 100% !important; 
+        display: flex;
+        flex-direction: column;
+       
+        background-color:  rgba(208, 208, 208, 0.342);
+    }
+    .imgResponsive{
+        width: 100% !important;
+        height: 35em; 
+    }
+    .imgResponsivotxt__container{
+        height: 15em;
+    }
+    
+    .imgResponsivo__txt{
+        text-align: center;
+        font-size: 1.5em;
+        margin-top:.7em !important;
+        
+    }
+
+}
+
+
 .imgResponsive__container{
     width: 80%;
     margin-top: 5em;

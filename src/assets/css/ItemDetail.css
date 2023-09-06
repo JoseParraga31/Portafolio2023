@@ -1,3 +1,42 @@
+@media(max-width: 920px) and (min-width: 412px){
+    .itemDetail__container{
+        width: 80%;
+        display: block;
+        justify-content: center;
+        margin-top: 8em;
+        margin-left: 2em !important;
+        background-color:  rgba(208, 208, 208, 0.342);
+        border-bottom: 2px solid #d0d0d0;
+    
+    }
+    .ItemDetail__Intro{
+        width: 70%;
+        font-weight: 600;
+        font-size: .8em !important;
+        text-align: center;
+        margin-left: 15%;
+        margin-bottom: 3em;
+        gap: .5em;
+    
+    }
+    .img__ItemDetail{
+        width: 20em !important;
+        height: 10em !important;
+        margin-left: 0 !important;
+    }
+    .ItemDetail__titulo,.ItemDetail__SubTitulo{
+        width: 60%;
+        padding: 3em;
+        text-align: center;
+        margin-left: 10% !important;
+    }
+    .titulo__ItemDetail{
+        font-size: 1.5em !important;
+        font-weight: bold;
+    }
+ 
+}
+
 .itemDetail__container{
     width: 80%;
     display: block;

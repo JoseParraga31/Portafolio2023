@@ -92,12 +92,13 @@
     margin-top: 2em;
 }
 
-.img{
+.img__certificado{
+    width: 15em;
     cursor: pointer;
     transition: 2s;
 }
 
-.img:hover{
+.img__certificado:hover{
     width: 50em;
 }
 
