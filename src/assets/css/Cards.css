@@ -1,4 +1,4 @@
-@media(max-width: 920px) and (min-width: 412px){
+@media(min-width: 412px )and (max-width: 920px){
     .card__container{
         width: 25em;
         height: 33em;

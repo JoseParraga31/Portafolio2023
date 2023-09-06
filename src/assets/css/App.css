@@ -10,7 +10,7 @@ body {
   background-image: url(../statics/OC1Y8T0.jpg);
 }
 
-@media(max-width: 920px) and (min-width: 412px){
+@media(min-width: 412px )and (max-width: 920px) {
   .NavBar--Container {
     display: flex;
     width: 100%;

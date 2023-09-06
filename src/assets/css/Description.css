@@ -1,4 +1,4 @@
-@media(max-width: 920px) and (min-width: 412px){
+@media(min-width: 412px ) and (max-width: 920px){
     .description{
         width: 100% !important;
         background-color: rgb(245, 245, 245, 0.6);
